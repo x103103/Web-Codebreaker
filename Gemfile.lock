@@ -1,0 +1,47 @@
+GIT
+  remote: https://github.com/x103103/Codebreaker.git
+  revision: 2d3cdf3d0aa2cf7a8f095d626dcbc7d6b0b5b63f
+  specs:
+    codebreaker (0.1.4.2)
+      highline (~> 1.7.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    fuubar (2.0.0)
+      rspec (~> 3.0)
+      ruby-progressbar (~> 1.4)
+    highline (1.7.2)
+    json (1.8.3)
+    rack (1.6.1)
+    rspec (3.2.0)
+      rspec-core (~> 3.2.0)
+      rspec-expectations (~> 3.2.0)
+      rspec-mocks (~> 3.2.0)
+    rspec-collection_matchers (1.1.2)
+      rspec-expectations (>= 2.99.0.beta1)
+    rspec-core (3.2.3)
+      rspec-support (~> 3.2.0)
+    rspec-expectations (3.2.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-mocks (3.2.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-support (3.2.2)
+    ruby-progressbar (1.7.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  codebreaker!
+  fuubar
+  json
+  rack
+  rspec
+  rspec-collection_matchers
+
+BUNDLED WITH
+   1.10.1

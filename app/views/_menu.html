@@ -1,0 +1,36 @@
+<div class="row menu">
+    <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 view-body panel-own">
+        <div class="row">
+            <div class="col-sm-2" ng-hide="game">
+            </div>
+            <div class="col-xs-12 col-sm-4 col-sm-offset-1" ng-show="game">
+                <h4 class="continue-info">{{game.user.name}}</h4>
+                <button ng-show="game" ng-click="continue_game()" class="btn btn-success continue">Continue</button>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-sm-offset-2">
+                <form ng-submit="new_game()">
+                    <input ng-model="user_name" type="text" class="form-control name" placeholder="Your name">
+                    <button class="btn btn-success new" type="submit">New game</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3">
+                <h3 class="scores-header">Scores</h3>
+                <table class="table scores">
+                    <thead>
+                        <tr>
+                            <th>Name</th><th>Attempt</th><th>Time (min)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="score in scores | orderBy:'game_duration' | limitTo : 5" class="repeated-item">
+                            <td>{{score.user.name}}</td><td>{{score.attempt}}</td><td>{{score.game_duration}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

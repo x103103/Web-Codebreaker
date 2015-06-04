@@ -1,0 +1,168 @@
+* {
+    font-family: 'Jura', sans-serif;
+}
+body {
+    background-color: rgb(249, 242, 255);
+}
+.view-animate-container {
+    position:relative;
+    height:460px!important;
+    overflow:hidden;
+    background-color: rgb(249, 242, 255);
+}
+
+.view-animate {
+    padding:20px;
+}
+
+.panel-own {
+    background-color: rgb(255, 138, 0);
+    box-shadow: 0px 2px 5px 0px #c12e2a;
+}
+
+.view-body {
+    padding: 20px;
+    background-color: white;
+}
+
+.menu button.new {
+    margin: 5px 0;
+    width:100%;
+    font-weight: 900;
+}
+
+.menu button.continue {
+    margin: 0px 0px 20px 0px;
+    width:100%;
+    font-weight: 900;
+}
+
+.menu h4.continue-info {
+    text-align:center;
+}
+
+.menu input.name {
+    text-align:center;
+}
+
+.menu .scores-header {
+    text-align:center;
+}
+
+.menu table.scores td, .menu table.scores th {
+    text-align:center;
+}
+
+.game .user-code {
+    text-align: center;
+    display: table;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.game .user-code span {
+    display: table-cell;
+    min-width: 25px;
+}
+
+.game .menu {
+    float:right;
+}
+
+.game .buttons button {
+    font-weight: 900;
+    font-size: x-large;
+    padding: 0;
+}
+
+.game .info {
+    margin-top: 5%;
+}
+
+.game .name {
+    font-size: 20px;
+}
+.game .remaining-attempts {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.game .results button {
+    width: 8%;
+    margin: 1%;
+    font-weight: 900;
+    font-size: x-large;
+    padding: 0;
+    line-height: 1;
+}
+
+.game .end .win {
+    text-align: center;
+}
+
+.game .end .game-over {
+    text-align: center;
+}
+
+.game .end .question {
+    text-align: center;
+}
+
+.view-animate.ng-enter, .view-animate.ng-leave {
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+
+    display:block;
+    width:100%;
+
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.view-animate.ng-enter {
+    left:100%;
+}
+.view-animate.ng-enter.ng-enter-active {
+    left:0;
+}
+.view-animate.ng-leave.ng-leave-active {
+    left:-100%;
+}
+
+.title {
+    padding:20px;
+    text-align: center;
+}
+
+.title .title-first-part {
+    font-weight: 900;
+    font-size: inherit;
+    padding: 0;
+    line-height: 1;
+}
+.title .title-second-part {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.repeated-item.ng-enter, .repeated-item.ng-move {
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+    opacity:0;
+}
+
+.repeated-item.ng-enter-stagger {
+    -webkit-transition-delay:0.6s;
+    -moz-transition-delay:0.6s;
+    -o-transition-delay:0.6s;
+    transition-delay:0.6s;
+}
+
+.repeated-item.ng-enter.ng-enter-active,
+.repeated-item.ng-move.ng-move-active {
+    opacity:1;
+}

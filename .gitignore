@@ -1,0 +1,83 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Ruby template
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+## Specific to RubyMotion:
+.dat*
+.repl_history
+build/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalisation:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# Gemfile.lock
+# .ruby-version
+# .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+
+/.idea/*
+/app/assets/js/bower_components/angular/angular.min.js.gzip
+/app/assets/js/bower_components/angular/index.js
+/app/assets/js/bower_components/angular/package.json
+/app/assets/js/bower_components/angular/angular-csp.css
+/app/assets/js/bower_components/angular/.bower.json
+/app/assets/js/bower_components/angular/angular.js
+/app/assets/js/bower_components/angular/README.md
+/app/assets/js/bower_components/angular/bower.json
+/app/assets/js/bower_components/angular-animate/index.js
+/app/assets/js/bower_components/angular-animate/package.json
+/app/assets/js/bower_components/angular-animate/.bower.json
+/app/assets/js/bower_components/angular-animate/angular-animate.js
+/app/assets/js/bower_components/angular-animate/bower.json
+/app/assets/js/bower_components/angular-animate/README.md
+/app/assets/js/bower_components/angular-route/package.json
+/app/assets/js/bower_components/angular-route/index.js
+/app/assets/js/bower_components/angular-route/bower.json
+/app/assets/js/bower_components/angular-route/README.md
+/app/assets/js/bower_components/angular-route/angular-route.js
+/app/assets/js/bower_components/angular-route/.bower.json
+/app/assets/js/bower_components/bootstrap/Gruntfile.js
+/app/assets/js/bower_components/bootstrap/README.md
+/app/assets/js/bower_components/bootstrap/bower.json
+/app/assets/js/bower_components/bootstrap/grunt
+/app/assets/js/bower_components/bootstrap/LICENSE
+/app/assets/js/bower_components/bootstrap/package.js
+/app/assets/js/bower_components/angular-route
+/app/assets/js/bower_components/bootstrap/.bower.json
+/app/assets/js/bower_components/bootstrap/package.json
+/app/assets/js/bower_components/bootstrap/js
+/app/assets/js/bower_components/bootstrap/less
+/app/assets/js/bower_components/bootstrap/fonts
+/app/assets/js/bower_components/bootstrap/dist/css/bootstrap-theme.css
+/app/assets/js/bower_components/bootstrap/dist/css/bootstrap.css
+/app/assets/js/bower_components/bootstrap/dist/css/bootstrap.css.map
+/app/assets/js/bower_components/bootstrap/dist/css/bootstrap-theme.css.map
+/app/assets/js/bower_components/bootstrap/dist/js/bootstrap.js
+/app/assets/js/bower_components/bootstrap/dist/js/npm.js
+/app/assets/js/bower_components/jquery/.bower.json
+/app/assets/js/bower_components/jquery/MIT-LICENSE.txt
+/app/assets/js/bower_components/jquery/src
+/app/assets/js/bower_components/jquery/bower.json
+/app/assets/js/bower_components/jquery/dist/jquery.js

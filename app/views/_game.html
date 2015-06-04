@@ -1,0 +1,51 @@
+<div class="row game">
+    <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 view-body panel-own">
+        <div ng-show="game.status === 'next'">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="user-code">
+                        <span ng-repeat="item in user_code track by $index">{{item}}</span>
+                    </h1>
+                    <div class="btn-group btn-group-justified buttons" role="group">
+                        <div class="btn-group" role="group" ng-repeat="button in buttons" >
+                            <button type="button" class="btn btn-info" ng-click="guess(button)">{{button}}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 results">
+                    <button ng-repeat="result in game.results track by $index" class="btn btn-danger btn-xs">{{result}}</button>
+                </div>
+            </div>
+            <div class="row info">
+                <div class="col-xs-12">
+                    <span class="label label-default name">{{game.user.name}}</span>
+                    <span class="remaining-attempts">remaining attempts:
+                        <span class="label label-default">{{game.remaining_attempts}}</span>
+                    </span>
+                    <button type="button" class="btn btn-primary btn-sm menu" ng-click="to_menu()">Menu</button>
+                    <button type="button" class="btn btn-link" ng-click="hint()">hint</button>
+                    <span ng-show="game.hint">: {{game.hint}}</span>
+                </div>
+            </div>
+        </div>
+        <div ng-hide="game.status === 'next'" class="row end">
+            <div class="col-xs-12">
+                <h1 class="win" ng-show="game.status === 'win'">Congratulations! You win!</h1>
+                <h1 class="game-over"  ng-show="game.status === 'game_over'">Game over</h1>
+                <h4 class="question" ng-show="game.status === 'win'">Do you want to save your score?
+                    <button type="button" class="btn btn-primary btn-sm" ng-click="save()">Yes</button>
+                    <button type="button" class="btn btn-primary btn-sm" ng-click="destroy_game()">No</button>
+                </h4>
+                <h4 class="question" ng-show="game.status === 'game_over'">
+                    <button type="button" class="btn btn-primary btn-sm" ng-click="destroy_game()">Menu</button>
+                </h4>
+
+            </div>
+        </div>
+        <p>{{secret_code}}</p>
+
+
+    </div>
+</div>
