@@ -10,7 +10,7 @@ A - indicates a number match: one of the numbers in the guess is the same as one
 
 ## Demo
 ----
-https://pacific-shelf-5748.herokuapp.com
+https://polar-savannah-2753.herokuapp.com
 
 ## Made on:
 
