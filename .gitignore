@@ -64,7 +64,6 @@ build/
 /app/assets/js/bower_components/bootstrap/grunt
 /app/assets/js/bower_components/bootstrap/LICENSE
 /app/assets/js/bower_components/bootstrap/package.js
-/app/assets/js/bower_components/angular-route
 /app/assets/js/bower_components/bootstrap/.bower.json
 /app/assets/js/bower_components/bootstrap/package.json
 /app/assets/js/bower_components/bootstrap/js
@@ -81,3 +80,15 @@ build/
 /app/assets/js/bower_components/jquery/src
 /app/assets/js/bower_components/jquery/bower.json
 /app/assets/js/bower_components/jquery/dist/jquery.js
+/app/assets/js/bower_components/jquery-ui/bower.json
+/app/assets/js/bower_components/jquery-ui/LICENSE.txt
+/app/assets/js/bower_components/jquery-ui/AUTHORS.txt
+/app/assets/js/bower_components/jquery-ui/.gitignore
+/app/assets/js/bower_components/jquery-ui/component.json
+/app/assets/js/bower_components/jquery-ui/themes
+/app/assets/js/bower_components/jquery-ui/README.md
+/app/assets/js/bower_components/jquery-ui/ui
+/app/assets/js/bower_components/jquery-ui/composer.json
+/app/assets/js/bower_components/jquery-ui/jquery-ui.js
+/app/assets/js/bower_components/jquery-ui/package.json
+/app/assets/js/bower_components/jquery-ui/.bower.json
